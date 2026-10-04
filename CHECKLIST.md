@@ -28,11 +28,11 @@ Theo dõi các checkpoint theo thứ tự. Mỗi checkpoint có hướng dẫn c
 - [x] Xem [hướng dẫn CP4](checkpoints/CP04-m3-reranking.md).
 
 ## CP5 — M4: RAGAS Evaluation
-- [ ] Tính đủ 4 metric: Faithfulness, Answer Relevancy, Context Precision, Context Recall.
-- [ ] Bắt lỗi evaluation có kiểm soát.
-- [ ] Sinh Bottom-N failure có diagnosis và suggested fix.
-- [ ] Chạy test M4.
-- [ ] Xem [hướng dẫn CP5](checkpoints/CP05-m4-evaluation.md).
+- [x] Tính đủ 4 metric: Faithfulness, Answer Relevancy, Context Precision, Context Recall.
+- [x] Bắt lỗi evaluation có kiểm soát.
+- [x] Sinh Bottom-N failure có diagnosis và suggested fix.
+- [x] Chạy test M4.
+- [x] Xem [hướng dẫn CP5](checkpoints/CP05-m4-evaluation.md).
 
 ## CP6 — M5: Enrichment
 - [ ] Chọn combined single-call hoặc các technique riêng.
