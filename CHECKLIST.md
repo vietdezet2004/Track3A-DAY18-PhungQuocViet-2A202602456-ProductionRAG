@@ -22,10 +22,10 @@ Theo dõi các checkpoint theo thứ tự. Mỗi checkpoint có hướng dẫn c
 - [x] Xem [hướng dẫn CP3](checkpoints/CP03-m2-hybrid-search.md).
 
 ## CP4 — M3: Reranking
-- [ ] Nạp CrossEncoder `BAAI/bge-reranker-v2-m3` và rerank candidate documents.
-- [ ] Xác nhận giới hạn kết quả, thứ tự điểm giảm dần và thứ hạng truy vấn nghỉ phép.
-- [ ] Chạy test M3.
-- [ ] Xem [hướng dẫn CP4](checkpoints/CP04-m3-reranking.md).
+- [x] Nạp CrossEncoder `BAAI/bge-reranker-v2-m3` và rerank candidate documents.
+- [x] Xác nhận giới hạn kết quả, thứ tự điểm giảm dần và thứ hạng truy vấn nghỉ phép.
+- [x] Chạy test M3.
+- [x] Xem [hướng dẫn CP4](checkpoints/CP04-m3-reranking.md).
 
 ## CP5 — M4: RAGAS Evaluation
 - [ ] Tính đủ 4 metric: Faithfulness, Answer Relevancy, Context Precision, Context Recall.
