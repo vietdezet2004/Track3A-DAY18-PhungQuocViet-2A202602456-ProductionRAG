@@ -16,10 +16,10 @@ Theo dõi các checkpoint theo thứ tự. Mỗi checkpoint có hướng dẫn c
 - [x] Xem [hướng dẫn CP2](checkpoints/CP02-m1-chunking.md).
 
 ## CP3 — M2: Hybrid Search
-- [ ] Hoàn thành tiếng Việt segmentation, BM25, Dense Search và RRF.
-- [ ] Xác nhận kết quả có đúng `method` và truy vấn nghỉ phép có liên quan.
-- [ ] Chạy test M2.
-- [ ] Xem [hướng dẫn CP3](checkpoints/CP03-m2-hybrid-search.md).
+- [x] Hoàn thành tiếng Việt segmentation, BM25, Dense Search và RRF.
+- [x] Xác nhận kết quả có đúng `method` và truy vấn nghỉ phép có liên quan.
+- [x] Chạy test M2.
+- [x] Xem [hướng dẫn CP3](checkpoints/CP03-m2-hybrid-search.md).
 
 ## CP4 — M3: Reranking
 - [ ] Nạp CrossEncoder `BAAI/bge-reranker-v2-m3` và rerank candidate documents.
