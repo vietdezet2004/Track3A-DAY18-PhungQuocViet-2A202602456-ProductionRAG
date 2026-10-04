@@ -10,10 +10,10 @@ Theo dõi các checkpoint theo thứ tự. Mỗi checkpoint có hướng dẫn c
 - [x] Xem [hướng dẫn CP1](checkpoints/CP01-setup-baseline.md).
 
 ## CP2 — M1: Advanced Chunking
-- [ ] Hoàn thành semantic, hierarchical và structure-aware chunking.
-- [ ] Kiểm tra parent-child, `parent_id`, headers và `section` metadata.
-- [ ] Chạy test M1.
-- [ ] Xem [hướng dẫn CP2](checkpoints/CP02-m1-chunking.md).
+- [x] Hoàn thành semantic, hierarchical và structure-aware chunking.
+- [x] Kiểm tra parent-child, `parent_id`, headers và `section` metadata.
+- [x] Chạy test M1.
+- [x] Xem [hướng dẫn CP2](checkpoints/CP02-m1-chunking.md).
 
 ## CP3 — M2: Hybrid Search
 - [ ] Hoàn thành tiếng Việt segmentation, BM25, Dense Search và RRF.
