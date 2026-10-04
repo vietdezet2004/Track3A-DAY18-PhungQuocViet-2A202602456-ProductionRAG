@@ -1,0 +1,68 @@
+# Checklist Lab 18: Production RAG Pipeline
+
+Theo dõi các checkpoint theo thứ tự. Mỗi checkpoint có hướng dẫn chi tiết trong thư mục [checkpoints](checkpoints/).
+
+## CP1 — Setup và baseline
+- [x] Tạo môi trường Python 3.11+ và cài dependencies.
+- [x] Khởi động Qdrant bằng Docker Compose.
+- [x] Tạo `.env`, cấu hình `OPENAI_API_KEY` khi dùng các bước cần LLM.
+- [x] Chạy baseline và xác nhận báo cáo được tạo.
+- [x] Xem [hướng dẫn CP1](checkpoints/CP01-setup-baseline.md).
+
+## CP2 — M1: Advanced Chunking
+- [ ] Hoàn thành semantic, hierarchical và structure-aware chunking.
+- [ ] Kiểm tra parent-child, `parent_id`, headers và `section` metadata.
+- [ ] Chạy test M1.
+- [ ] Xem [hướng dẫn CP2](checkpoints/CP02-m1-chunking.md).
+
+## CP3 — M2: Hybrid Search
+- [ ] Hoàn thành tiếng Việt segmentation, BM25, Dense Search và RRF.
+- [ ] Xác nhận kết quả có đúng `method` và truy vấn nghỉ phép có liên quan.
+- [ ] Chạy test M2.
+- [ ] Xem [hướng dẫn CP3](checkpoints/CP03-m2-hybrid-search.md).
+
+## CP4 — M3: Reranking
+- [ ] Nạp CrossEncoder `BAAI/bge-reranker-v2-m3` và rerank candidate documents.
+- [ ] Xác nhận giới hạn kết quả, thứ tự điểm giảm dần và thứ hạng truy vấn nghỉ phép.
+- [ ] Chạy test M3.
+- [ ] Xem [hướng dẫn CP4](checkpoints/CP04-m3-reranking.md).
+
+## CP5 — M4: RAGAS Evaluation
+- [ ] Tính đủ 4 metric: Faithfulness, Answer Relevancy, Context Precision, Context Recall.
+- [ ] Bắt lỗi evaluation có kiểm soát.
+- [ ] Sinh Bottom-N failure có diagnosis và suggested fix.
+- [ ] Chạy test M4.
+- [ ] Xem [hướng dẫn CP5](checkpoints/CP05-m4-evaluation.md).
+
+## CP6 — M5: Enrichment
+- [ ] Chọn combined single-call hoặc các technique riêng.
+- [ ] Hoàn thành `enrich_chunks()` trả về `list[EnrichedChunk]`.
+- [ ] Kiểm tra enriched text và fallback khi thiếu API key.
+- [ ] Chạy test M5.
+- [ ] Xem [hướng dẫn CP6](checkpoints/CP06-m5-enrichment.md).
+
+## CP7 — Pipeline và kết quả đánh giá
+- [ ] Chạy pipeline end-to-end thành công.
+- [ ] Tạo/kiểm tra `reports/ragas_report.json` và báo cáo baseline.
+- [ ] Điền bảng so sánh 4 metrics và mức thay đổi.
+- [ ] Xem [hướng dẫn CP7](checkpoints/CP07-pipeline-evaluation.md).
+
+## CP8 — Failure analysis
+- [ ] Chọn 5 câu hỏi có kết quả tệ nhất từ báo cáo.
+- [ ] Ghi expected, actual, metric yếu nhất, Error Tree, root cause và suggested fix.
+- [ ] Hoàn thiện `analysis/failure_analysis.md`.
+- [ ] Xem [hướng dẫn CP8](checkpoints/CP08-failure-analysis.md).
+
+## CP9 — Reflection
+- [ ] Tạo `analysis/reflections/reflection_[HoTen].md` từ template.
+- [ ] Map đủ concept của 5 modules vào hàm/code cụ thể và observation.
+- [ ] Ghi exact error, cách debug, kiến thức còn thiếu và kế hoạch áp dụng.
+- [ ] Có timeline hành động cho project cá nhân.
+- [ ] Xem [hướng dẫn CP9](checkpoints/CP09-reflection.md).
+
+## CP10 — Kiểm tra và nộp bài
+- [ ] Chạy toàn bộ tests và `python check_lab.py`; xử lý TODO còn lại.
+- [ ] Xác nhận pipeline exit code 0 và đủ deliverables trong repo.
+- [ ] Đặt tên repo đúng `K4-Track3A-DAY18-<HoVaTen>-<MSSV>-ProductionRAG`.
+- [ ] Push repo Public và nộp link lên VLearn LMS / Codelab trước deadline.
+- [ ] Xem [hướng dẫn CP10](checkpoints/CP10-final-submission.md).
